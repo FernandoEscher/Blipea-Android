@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget30"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/widget32" android:layout_width="fill_parent"
+		android:layout_height="24px" android:text="Login to your account"
+		android:textSize="18sp" android:gravity="center">
+	</TextView>
+	<EditText android:id="@+id/usuario" android:layout_width="250px"
+		android:layout_height="wrap_content" android:layout_marginTop="20px"
+		android:textSize="18sp" android:gravity="center"
+		android:layout_gravity="center_horizontal">
+	</EditText>
+	<EditText android:id="@+id/clave" android:layout_width="250px"
+		android:layout_height="wrap_content" android:layout_marginTop="10px"
+		android:textSize="18sp" android:gravity="center"
+		android:password="true" android:layout_gravity="center_horizontal">
+	</EditText>
+	<Button android:id="@+id/loginButton" android:layout_width="100px"
+		android:layout_height="wrap_content" android:layout_marginTop="10px"
+		android:text="Login" android:layout_gravity="center_horizontal">
+	</Button>
+</LinearLayout>
+
